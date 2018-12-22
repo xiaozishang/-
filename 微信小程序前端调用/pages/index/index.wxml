@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="i">智能家居</view>
+<view class="naozhong">
+<text id="text">输入时间：</text>
+  <input maxlength="10" id="input" placeholder="时间1" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+bindinput="change1"/>
+  <button id="btn1" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send4">发送请求</button>
+  <text id="text">灯开关</text>
+  <button id="btn2" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send2">开灯</button>
+<button id="btn2" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send7">关灯</button>
+  <text id="text">窗帘开关</text>
+  <button id="btn3" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send5">开窗</button>
+<button id="btn3" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send6">关窗</button>
+  </view>
+<text id="text1">时间1：{{datao}}
+</text>
